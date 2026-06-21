@@ -10,7 +10,7 @@ const Header: React.FC = () => {
             <GraduationCap size={24} />
         </div>
         <div>
-            <h1 className="text-xl font-bold text-teal-800">Trợ Lý Toán Thầy Toàn</h1>
+            <h1 className="text-xl font-bold text-teal-800">Trợ Lý Toán Thầy Phúc</h1>
             <p className="text-xs text-teal-600 font-medium">Hỗ trợ giải bài tập & OCR LaTeX</p>
         </div>
       </div>
