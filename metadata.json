@@ -1,0 +1,5 @@
+{
+  "name": "Trợ lý Toán Thầy Phúc",
+  "description": "Ứng dụng chatbot hỗ trợ học tập chuyên về Toán học, hỗ trợ OCR hình ảnh và giải bài tập với định dạng LaTeX.",
+  "requestFramePermissions": []
+}

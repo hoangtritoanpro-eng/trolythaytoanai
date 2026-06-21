@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="vi" style="height: 100%; margin: 0; padding: 0;">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trợ lý Toán Thầy Phúc</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
+    <style>
+      html, body { 
+        height: 100%; 
+        margin: 0; 
+        padding: 0; 
+        overflow: hidden; /* Bắt buộc để vô hiệu hóa thanh cuộn của toàn trang */
+      }
+      #root { 
+        height: 100%; 
+        width: 100%; 
+        /* Đã xóa display: flex và flex-direction: column ở đây */
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
